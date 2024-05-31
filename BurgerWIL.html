@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="BurgerWIL.css">
+    <title>BurgerWIL</title>
+</head>
+        <div class ="wrapper"></div>
+        <img class = "logo" src ="BURGER.gif" width = "390px">
+            <form id ="burgerForm">
+                <section class = "type">
+                <p>Type of Patty </p>
+                <input type = "radio" id = "beef patty" name ="patty" value = "Beef Patty">
+                <label for = "beef patty"> Beef Patty </label>
+                <input type = "radio" id = "chicken patty" name ="patty" value = "Chicken Patty">
+                <label for = "chicken patty"> Chicken Patty </label>
+                </section>
+                <section class = "amount">
+                    <p class = "amount-q">How many patty would you like?</p>
+                        <input type = "number" name = "amount" id ="amount">
+                      
+                      </section>
+                <section class = "cooked">
+                    <label for ="doneness"> </label>How do you want your patty cooked? </label> <br>
+                            <span class = "rare">Rare</span>
+                        <input type = "range" name = "doneness" id ="doneness" value ="3" min ="1" max ="5">
+                            <span class = "Cooked"> Cooked </span>
+                        </section>
+                <section class = "toppings">
+                    <span>What toppings would you like?</span> <br>
+                     <input type = "checkbox" name = "topping" id = "tomato" value = "tomato">
+                        <label for = "tomato">Tomato</label> 
+                    <input type = "checkbox" name = "topping" id = "lettuce" value = "lettuce">
+                        <label for = "lettuce">Lettuce</label>
+                    <input type = "checkbox" name = "topping" id = "onion" value = "onion">
+                        <label for = "onion">Onion</label><br>
+                    <input type = "checkbox" name = "topping" id = "pickles" value = "pickles">
+                        <label for = "pickles">Pickles</label>
+                    <input type = "checkbox" name = "topping" id = "cheese" value = "cheese">
+                        <label for = "cheese">Cheese</label>
+                    <input type = "checkbox" name = "topping" id = "bacon" value = "bacon">
+                        <label for = "bacon">Bacon</label><br>
+                    <input type = "checkbox" name = "topping" id = "egg" value = "egg">
+                        <label for = "egg">Egg</label>
+                        </section>
+                    </section>
+                    <section class = "buns">
+                        <p class = "buns-q">Which type of bun would you like?</p>
+                        <input type = "radio" id = "Potato" name ="bun" value = "Potato">
+                        <label for = "Potato"> Potato</label>
+                        <input type = "radio" id = "Whole Wheat" name ="bun" value = "Whole Wheat">
+                        <label for = "Whole Wheat"> Whole Wheat</label>
+                        <input type = "radio" id = "Sesame" name ="answer" value = "Sesame">
+                        <label for = "Sesame"> Sesame </label>
+                    </section>
+                <section class = "dressing">
+                    <span class ="dressing-q">What dressings would you like? </span> <br>
+                     <input type = "checkbox" name = "dressing" id = "tomato-ketchup" value = "tomato-ketchup">
+                        <label for = "tomato-ketchup">Tomato Ketchup</label> <br>
+                    <input type = "checkbox" name = "dressing" id = "banana-ketchup" value = "banana-ketchup">
+                        <label for = "banana-ketchup">Banana Ketchup </label><br>
+                    <input type = "checkbox" name = "dressing" id = "mayonaise" value = "mayonaise">
+                        <label for = "mayonaise">Mayonaise</label><br>
+                    <input type = "checkbox" name = "dressing" id = "mustard" value = "mustard">
+                        <label for = "mustard">Mustard</label><br>
+                    <input type = "checkbox" name = "dressing" id = "barbecue-sauce" value = "barbecue-sauce">
+                        <label for = "barbecue-sauce">Barbecue Sauce</label><br>
+                
+                </section>
+                    <section class ="generate">
+                    <button type ="submit" value ="Generate">Generate</button>
+                </section>
+                <div class = "results"> 
+                <p id="burgerSentence"></p>
+                </div>
+
+                </section>
+            </form>
+                
+<body>
+        </body>
+</html>

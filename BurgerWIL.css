@@ -1,0 +1,192 @@
+*
+    {
+    margin: 1px ;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    align-content: center;
+ 
+}
+    
+body
+    {
+    display :flex;
+    justify-content: center; 
+    align-items: center;
+    min-width: 100vh;
+    background: white;
+}
+.wrapper
+    {
+    position: relative;
+    width: 455px;
+    height: 730px;
+    background: white;
+    box-shadow: 
+        0 0 30px rgba(235, 52, 13, 1), 
+        0 0 20px rgba(255, 152, 31, 1)inset,
+        0 0 20px rgba(235, 52, 13, 1);
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: auto;
+}
+.type{
+    color: black;
+}
+
+.amount input{
+    color: white; 
+}
+
+.logo
+{
+   position: relative;
+   right: 720px;
+   bottom : 290px;
+}
+.type{
+    position: relative;
+    right : 1120px;
+    bottom : -90px;
+    line-height: -10px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.type input{
+    position: relative;
+    right : -9px;
+    bottom : 0px;
+}
+.amount{
+    position: relative;
+    right : 1159px;
+    bottom : -65px;
+    
+}
+.amount-q{
+    position: relative;
+    right : -42px;
+    bottom : -5px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cooked{
+    position: relative;
+    right : 1129px;
+    bottom : -62px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.rare{
+    position: relative;
+    right : -10px;
+    bottom : 13px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Cooked{
+    position: relative;
+    right : 0px;
+    bottom : 13px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.toppings{
+    position: relative;
+    left : -1117px;
+    bottom : -10px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buns
+{
+    position: relative;
+    right : 1108px;
+    bottom : -14px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buns-q
+{
+    position: relative;
+    right : 8px;
+    bottom : -3px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dressing
+{
+    position: relative;
+    right : 1105px;
+    bottom :3px;
+    line-height: 27px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.dressing-q
+{
+    position: relative;
+    right : 10px;
+    bottom :1px;
+    background-image: linear-gradient(100deg, #FF981F,#EB340D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.amount input {
+    position: relative;
+    right: -50px;
+    width: 82%;
+    height: 10px;
+    background: linear-gradient(to right, rgba(235, 52, 13, 1),  rgba(255, 152, 31, 1));
+}
+.toppings{
+    position: relative;
+    right : 1050px;
+    bottom : -42px;
+    line-height: 30px;
+}
+.toppings input{
+    position: relative;
+    right : -10px;
+    bottom :-2px;
+}
+
+.generate button
+{
+    background: linear-gradient(to right, rgba(235, 52, 13, 1),  rgba(255, 152, 31, 1));
+    width : 100%;
+    border-radius: 20px;
+    position: relative;
+    left : -1120px;
+    bottom : 10px;
+    COLOR : white;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px;
+}
